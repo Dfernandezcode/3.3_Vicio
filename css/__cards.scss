@@ -1,8 +1,21 @@
 .card {
 	flex-direction: column;
 	color: $secondary_color;
-	background-color: $tertiary_color;
 	@include card-structure;
+	box-shadow: 5px 5px 5px 5px rgba(41, 41, 41, 0.2);
+
+	&--red {
+		background-color: $tertiary_color;
+	}
+
+	&--black {
+		background-color: $primary_color;
+	}
+
+	&--white {
+		background-color: $secondary_color;
+		color: $primary_color;
+	}
 
 	&__user-container {
 		display: flex;

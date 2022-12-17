@@ -1,11 +1,22 @@
 .card {
   flex-direction: column;
   color: #fff;
-  background-color: #f71414;
   border-radius: 25px;
   min-height: 250px;
   max-width: 768px;
   padding: 2em;
+  margin: 1em;
+  box-shadow: 5px 5px 5px 5px rgba(41, 41, 41, 0.2);
+}
+.card--red {
+  background-color: #f71414;
+}
+.card--black {
+  background-color: #000;
+}
+.card--white {
+  background-color: #fff;
+  color: #000;
 }
 .card__user-container {
   display: flex;
