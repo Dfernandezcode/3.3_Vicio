@@ -1,0 +1,12 @@
+@mixin flex-left {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+@mixin card-structure {
+	border-radius: 25px;
+	min-height: 250px;
+	max-width: 768px;
+	padding: 2em;
+}
