@@ -1,125 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
     <title>Vicio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <img class="header__logo" src="assets/logo.svg" alt="Vicio">
-        <button class="header__btn">¡PIDE YA!</button>
+      <img class="header__logo" src="assets/logo.svg" alt="Vicio" />
+      <button class="header__btn">¡PIDE YA!</button>
     </header>
-    <h1 class="title">LOS CLIENTES HABLAN, <br> QUIEREN VICIO.</h1>
-    <main>
-        <div class="card card--red">
-            <div class="card__user-container">
-                <img class="card__avatar" src="/assets/customer-1.png" alt="Avatar">
-                <div class="card__user-info">
-                    <h2 class="card__username">Martina García</h2>
-                    <h3 class="card__subtext">Guía verificada</h3>
-                </div>
-            </div>
-            <div class="card__review">
-                <p class="card__review-maintext">
-                    Me habían hablado muy bien de las hamburguesas pero se quedaron cortos.
-                </p>
-                <p class="card__review-subtext">
-                    Es alucinante. Me he pedido la trufada y la explosión de sabores es increíble,
-                    el punto de la carne inmejorable. La única pega que le pongo es que ahora ya no quiero
-                    ir a ningún otro sitio de hamburguesas.
-                </p>
-            </div>
+    <h1 class="title">
+      LOS CLIENTES HABLAN, <br />
+      QUIEREN VICIO.
+    </h1>
+    <main class="card-list">
+      <div class="card card--box-a">
+        <div class="card__user-container">
+          <img class="card__avatar" src="/assets/customer-1.png" alt="Avatar" />
+          <div class="card__user-info">
+            <h2 class="card__username">Martina García</h2>
+            <h3 class="card__subtext">Guía verificada</h3>
+          </div>
         </div>
-        <div class="card card--black">
-            <div class="card__user-container">
-                <img class="card__avatar" src="/assets/customer-2.png" alt="Avatar">
-                <div class="card__user-info">
-                    <h2 class="card__username">Edu Cuadrado</h2>
-                    <h3 class="card__subtext">Comilón sin fronteras</h3>
-                </div>
-            </div>
-            <div class="card__review">
-                <p class="card__review-maintext">
-                    He pedido por la app de Glovo y el servicio fue muy rápido.
-                <p class="card__review-subtext">
-                    La presentación del producto es muy original y la hamburguesa muy sabrosa.
-                    Lo recomiendo y quedo con muchas ganas de pedir otra vez.
-                </p>
-            </div>
+        <div class="card__review">
+          <p class="card__review-maintext">
+            Me habían hablado muy bien de las hamburguesas pero se quedaron
+            cortos.
+          </p>
+          <p class="card__review-subtext">
+            Es alucinante. Me he pedido la trufada y la explosión de sabores es
+            increíble, el punto de la carne inmejorable. La única pega que le
+            pongo es que ahora ya no quiero ir a ningún otro sitio de
+            hamburguesas.
+          </p>
         </div>
-        <div class="card card--white">
-            <div class="card__user-container">
-                <img class="card__avatar" src="/assets/customer-3.png" alt="Avatar">
-                <div class="card__user-info">
-                    <h2 class="card__username">Fede Cáceres</h2>
-                    <h3 class="card__subtext">¿Dónde vamos a comer?</h3>
-                </div>
-            </div>
-            <div class="card__review">
-                <p class="card__review-maintext">
-                    Las hamburguesas buenísimas.
-                </p>
-                <p class="card__review-subtext">
-                    Las patatas genial también , tanto las normales como las que llevan queso y bacon.
-                    Llegó toda la comida en perfectas condiciones. El packaging genial. Repetiremos muchas veces.
-                </p>
-            </div>
+      </div>
+      <div class="card card--box-b">
+        <div class="card__user-container">
+          <img class="card__avatar" src="/assets/customer-2.png" alt="Avatar" />
+          <div class="card__user-info">
+            <h2 class="card__username">Edu Cuadrado</h2>
+            <h3 class="card__subtext">Comilón sin fronteras</h3>
+          </div>
         </div>
-
-        <div class="card card--black">
-            <div class="card__user-container">
-                <img class="card__avatar" src="/assets/customer-4.png" alt="Avatar">
-                <div class="card__user-info">
-                    <h2 class="card__username">Lucía Smith</h2>
-                    <h3 class="card__subtext">Foodie 100%</h3>
-                </div>
-            </div>
-            <div class="card__review">
-                <p class="card__review-maintext">
-                    Sin duda para mi son las mejores hamburguesas que he probado.
-                </p>
-                <p class="card__review-subtext">
-                    He pedido en varias ocasiones, porción justa y perfecta calidad - precio,
-                    por otro lado las patatas “Smoked bacon cheese fries” son el top de las patatas,
-                    insuperables, desde luego es un VICIO que no quiero dejar…
-                </p>
-            </div>
+        <div class="card__review">
+          <p class="card__review-maintext">
+            He pedido por la app de Glovo y el servicio fue muy rápido.
+          </p>
+          <p class="card__review-subtext">
+            La presentación del producto es muy original y la hamburguesa muy
+            sabrosa. Lo recomiendo y quedo con muchas ganas de pedir otra vez.
+          </p>
         </div>
-
-        <div class="card card--white">
-            <div class="card__user-container">
-                <img class="card__avatar" src="/assets/customer-5.png" alt="Avatar">
-                <div class="card__user-info">
-                    <h2 class="card__username">Paula Moreno</h2>
-                    <h3 class="card__subtext">Viajando por restaurantes</h3>
-                </div>
-            </div>
-            <div class="card__review">
-                <p class="card__review-maintext">
-                    Pedimos a Vicio para comer, y la comida tuvo sus luces y sombras.
-                </p>
-                <p class="card__review-subtext">
-                    Llevaba tiempo queriendo pedir a este sitio, ya que estoy en busca de las mejores hamburguesas y e
-                    ste delivery tenía muy buenas referencias por venir de un concursante de MasterChef.
-                    Por ejemplo las alitas, sorprende como se desprenden del hueso; los kikos que las acompañan están
-                    chulos en una primera
-                    instancia
-                    ya que les da ese toque crujiente, pero no acaban de convencer a mi criterio. En el plano de las
-                    hamburguesas, tanto la
-                    Vicio Originals
-                    como la Cheeseburger Trufada, me parecen un acierto. Sobre todo la Cheeseburger Trufada que como
-                    hamburguesa es bestial.
-                </p>
-            </div>
+      </div>
+      <div class="card card--box-c">
+        <div class="card__user-container">
+          <img class="card__avatar" src="/assets/customer-3.png" alt="Avatar" />
+          <div class="card__user-info">
+            <h2 class="card__username">Fede Cáceres</h2>
+            <h3 class="card__subtext">¿Dónde vamos a comer?</h3>
+          </div>
         </div>
+        <div class="card__review">
+          <p class="card__review-maintext">Las hamburguesas buenísimas.</p>
+          <p class="card__review-subtext">
+            Las patatas genial también , tanto las normales como las que llevan
+            queso y bacon. Llegó toda la comida en perfectas condiciones. El
+            packaging genial. Repetiremos muchas veces.
+          </p>
+        </div>
+      </div>
+      <div class="card card--box-d">
+        <div class="card__user-container">
+          <img class="card__avatar" src="/assets/customer-4.png" alt="Avatar" />
+          <div class="card__user-info">
+            <h2 class="card__username">Lucía Smith</h2>
+            <h3 class="card__subtext">Foodie 100%</h3>
+          </div>
+        </div>
+        <div class="card__review">
+          <p class="card__review-maintext">
+            Sin duda para mi son las mejores hamburguesas que he probado.
+          </p>
+          <p class="card__review-subtext">
+            He pedido en varias ocasiones, porción justa y perfecta calidad -
+            precio, por otro lado las patatas “Smoked bacon cheese fries” son el
+            top de las patatas, insuperables, desde luego es un VICIO que no
+            quiero dejar…
+          </p>
+        </div>
+      </div>
+      <div class="card card--box-e">
+        <div class="card__user-container">
+          <img class="card__avatar" src="/assets/customer-5.png" alt="Avatar" />
+          <div class="card__user-info">
+            <h2 class="card__username">Paula Moreno</h2>
+            <h3 class="card__subtext">Viajando por restaurantes</h3>
+          </div>
+        </div>
+        <div class="card__review">
+          <p class="card__review-maintext">
+            Pedimos a Vicio para comer, y la comida tuvo sus luces y sombras.
+          </p>
+          <p class="card__review-subtext">
+            Llevaba tiempo queriendo pedir a este sitio, ya que estoy en busca
+            de las mejores hamburguesas y e ste delivery tenía muy buenas
+            referencias por venir de un concursante de MasterChef. Por ejemplo
+            las alitas, sorprende como se desprenden del hueso; los kikos que
+            las acompañan están chulos en una primera instancia ya que les da
+            ese toque crujiente, pero no acaban de convencer a mi criterio. En
+            el plano de las hamburguesas, tanto la Vicio Originals como la
+            Cheeseburger Trufada, me parecen un acierto. Sobre todo la
+            Cheeseburger Trufada que como hamburguesa es bestial.
+          </p>
+        </div>
+      </div>
     </main>
-
-
-</body>
-
+    <footer class="footer">
+      <ul class="footer__list--primary">
+        <li>COLLECTION</li>
+        <li>VICIO CITIES</li>
+        <li>ABOUT US</li>
+        <li>CURRA AQUÍ</li>
+      </ul>
+      <ul class="footer__list--secondary">
+        <li>PRESSKIT</li>
+        <li>POLÍTICAS</li>
+        <li>AVISO LEGAL</li>
+      </ul>
+    </footer>
+  </body>
 </html>
